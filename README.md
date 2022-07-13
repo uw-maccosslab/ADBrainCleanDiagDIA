@@ -4,8 +4,10 @@ A Peptide-Centric Quantitative Proteomics Dataset for the Phenotypic Assessment 
 This package contains the datasets and code to generate the figures included in the scientific data paper:
 
 * Level 0: Raw files
-* Level 1: Skyline document
-* Level 2: Normalized and batch adjusted data
+* Level 1: Skyline document grouped by batch
+* Level 2: Skyline output with the integrated peak area for each peptide (row) in each replicate (column)
+* Level 3A: normalized peptide abundance across all batches
+* Level 3B: normalized protein abundance across all batches
 
 ## Installation
 ```R
