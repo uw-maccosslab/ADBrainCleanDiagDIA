@@ -1,0 +1,53 @@
+Batch,Sample Label,Condition,Age,Sex,Mutation Status,PMI (hrs),APOE Alleles,Cognitive Status,Study Name,B Score,C Score
+1,HZR01,Sporadic AD,77,Male,NA,5.92,3_3,Dementia,ACT,3,3
+1,HZR02,AutoDom AD,61,Male,PSEN1,16,3_3,Dementia,UW ADRC,3,3
+1,HZR03,Control High Path,98,Male,NA,4,3_4,No dementia,ACT,3,2
+1,HZR04,AutoDom AD,45,Male,PSEN1,3.6,3_3,Dementia,UW ADRC,3,3
+1,HZR05,Control Low Path,84,Male,NA,4.5,3_4,No dementia,ACT,1,0
+1,HZR06,Control High Path,92,Male,NA,5.57,3_4,No dementia,ACT,3,3
+1,HZR07,Sporadic AD,100,Male,NA,4.33,3_3,Dementia,ACT,3,3
+1,HZR08,Control Low Path,89,Male,NA,5,2_3,No dementia,ACT,1,0
+1,HZR09,Sporadic AD,62,Male,NA,3.92,3_4,Dementia,UW ADRC,3,3
+1,HZR10,Control High Path,78,Male,NA,4,3_3,No dementia,ACT,2,2
+1,HZR11,Control High Path,96,Female,NA,6.87,3_3,No dementia,ACT,2,3
+1,HZR12,Control Low Path,88,Female,NA,3.18,2_3,No dementia,ACT,1,0
+1,HZR13,Control Low Path,88,Female,NA,3.5,3_3,No dementia,ACT,2,0
+1,HZR14,Sporadic AD,89,Female,NA,5.23,3_3,Dementia,ACT,3,2
+2,HZR15,Sporadic AD,63,Male,NA,3.33,3_3,Dementia,UW ADRC,3,3
+2,HZR16,Control High Path,89,Female,NA,2.5,3_4,No dementia,ACT,3,3
+2,HZR17,Control Low Path,95,Female,NA,3.08,3_4,No dementia,ACT,2,0
+2,HZR18,Control High Path,87,Male,NA,4.5,3_3,No dementia,ACT,3,3
+2,HZR19,Control High Path,93,Male,NA,6.83,3_3,No dementia,ACT,3,2
+2,HZR20,Sporadic AD,59,Male,NA,5.08,3_4,Dementia,UW ADRC,3,3
+2,HZR21,Control Low Path,91,Male,NA,5,3_3,No dementia,ACT,2,0
+2,HZR22,Sporadic AD,93,Female,NA,6.5,3_3,Dementia,ACT,3,3
+2,HZR23,Sporadic AD,87,Female,NA,5.27,3_3,Dementia,UW ADRC,3,3
+2,HZR24,Sporadic AD,76,Male,NA,3.92,3_4,Dementia,UW ADRC,3,3
+2,HZR25,Sporadic AD,88,Male,NA,4.38,3_3,Dementia,UW ADRC,3,3
+2,HZR26,Sporadic AD,85,Female,NA,3.52,3_3,Dementia,UW ADRC,3,2
+2,HZR27,Control Low Path,79,Female,NA,2.5,3_3,No dementia,ACT,1,0
+2,HZR28,Control High Path,86,Female,NA,6.5,3_4,No dementia,ACT,2,2
+3,HZR29,Sporadic AD,86,Male,NA,2.67,3_4,Dementia,UW ADRC,3,3
+3,HZR30,Sporadic AD,94,Male,NA,3.85,3_3,Dementia,ACT,3,3
+3,HZR31,Sporadic AD,91,Female,NA,5.75,3_4,Dementia,UW ADRC,3,3
+3,HZR32,Control High Path,92,Female,NA,6,4_4,No dementia,ACT,2,2
+3,HZR33,Sporadic AD,78,Female,NA,2.35,4_4,Dementia,UW ADRC,3,2
+3,HZR34,Control Low Path,73,Male,NA,4.5,3_3,No dementia,ACT,1,0
+3,HZR35,Sporadic AD,67,Female,NA,4.75,3_3,Dementia,UW ADRC,3,3
+3,HZR36,Sporadic AD,85,Male,NA,3.25,3_3,Dementia,UW ADRC,3,3
+3,HZR37,Sporadic AD,90,Female,NA,3.85,3_3,Dementia,ACT,3,3
+3,HZR38,AutoDom AD,54,Female,APP,6,4_4,Dementia,UW ADRC,3,3
+3,HZR39,Control High Path,89,Female,NA,5.08,3_3,No dementia,ACT,3,3
+3,HZR40,Control Low Path,94,Female,NA,4.85,3_3,No dementia,ACT,2,0
+3,HZR41,Sporadic AD,91,Male,NA,7,3_4,Dementia,ACT,3,2
+3,HZR42,Control High Path,92,Female,NA,4.08,3_3,No dementia,ACT,2,3
+3,HZR43,Sporadic AD,61,Male,NA,3,4_4,Dementia,UW ADRC,3,3
+3,HZR44,Control Low Path,86,Male,NA,3.25,3_3,No dementia,ACT,2,0
+1,HAD01,Brain Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,HRPR01,Hipp Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,HAD02,Brain Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,HRPR02,Hipp Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,HAD03a,Brain Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,HRPR03a,Hipp Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,HAD03b,Brain Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,HRPR03b,Hipp Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA

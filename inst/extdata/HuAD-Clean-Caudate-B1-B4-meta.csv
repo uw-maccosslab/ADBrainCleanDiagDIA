@@ -1,0 +1,69 @@
+Batch,Sample Label,Condition,Age,Sex,Mutation Status,PMI (hrs),APOE Alleles,Cognitive Status,Study Name,B Score,C Score
+1,CZR01,Sporadic AD,94,Male,NA,3.85,3_3,Dementia,ACT,3,3
+1,CZR02,Control High Path,92,Male,NA,5.57,3_4,No dementia,ACT,3,3
+1,CZR03,Control High Path,87,Male,NA,4.5,3_3,No dementia,ACT,3,3
+1,CZR04,AutoDom AD,61,Male,PSEN1,16,3_3,Dementia,UW ADRC,3,3
+1,CZR05,AutoDom AD,39,Male,PSEN1,18,NA,Dementia,DIAN,3,3
+1,CZR06,Sporadic AD,59,Male,NA,5.08,3_4,Dementia,UW ADRC,3,3
+1,CZR07,AutoDom AD,54,Female,APP,6,4_4,Dementia,UW ADRC,3,3
+1,CZR08,Control Low Path,88,Female,NA,3.5,3_3,No dementia,ACT,2,0
+1,CZR09,AutoDom AD,42,Male,PSEN1,24,3_3,Dementia,UW ADRC,3,3
+1,CZR10,AutoDom AD,63,Male,PSEN1,8,3_3,Dementia,UW ADRC,3,3
+1,CZR11,Sporadic AD,78,Female,NA,2.35,4_4,Dementia,UW ADRC,3,2
+1,CZR12,Control High Path,92,Female,NA,4.08,3_3,No dementia,ACT,2,3
+1,CZR13,AutoDom AD,49,Female,PSEN1,6.5,NA,Dementia,DIAN,3,3
+1,CZR14,Control Low Path,78,Male,NA,4,2_3,No dementia,ACT,0,0
+2,CZR15,Control Low Path,88,Female,NA,3.18,2_3,No dementia,ACT,1,0
+2,CZR16,Control High Path,92,Female,NA,6,4_4,No dementia,ACT,2,2
+2,CZR17,AutoDom AD,51,Male,PSEN1,9,NA,Dementia,DIAN,3,3
+2,CZR18,Control Low Path,89,Male,NA,5,2_3,No dementia,ACT,1,0
+2,CZR19,Sporadic AD,91,Male,NA,7,3_4,Dementia,ACT,3,2
+2,CZR20,AutoDom AD,60,Male,PSEN2,20.5,3_3,Dementia,UW ADRC,3,3
+2,CZR21,Sporadic AD,91,Female,NA,5.75,3_4,Dementia,UW ADRC,3,3
+2,CZR22,Sporadic AD,87,Female,NA,5.27,3_3,Dementia,UW ADRC,3,3
+2,CZR23,Control High Path,96,Female,NA,6.87,3_3,No dementia,ACT,2,3
+2,CZR24,AutoDom AD,52,Female,PSEN1,NA,3_4,Dementia,UW ADRC,3,3
+2,CZR25,Sporadic AD,85,Male,NA,3.25,3_3,Dementia,UW ADRC,3,3
+2,CZR26,AutoDom AD,45,Male,PSEN1,3.6,3_3,Dementia,UW ADRC,3,3
+2,CZR27,Sporadic AD,86,Male,NA,2.67,3_4,Dementia,UW ADRC,3,3
+2,CZR28,Control High Path,93,Male,NA,6.83,3_3,No dementia,ACT,3,2
+3,CZR29,Sporadic AD,76,Male,NA,3.92,3_4,Dementia,UW ADRC,3,3
+3,CZR30,Control Low Path,95,Female,NA,3.08,3_4,No dementia,ACT,2,0
+3,CZR31,Sporadic AD,67,Female,NA,4.75,3_3,Dementia,UW ADRC,3,3
+3,CZR32,AutoDom AD,78,Female,PSEN2,7,2_3,Dementia,UW ADRC,3,3
+3,CZR33,AutoDom AD,37,Male,PSEN1,7,3_3,Dementia,UW ADRC,3,3
+3,CZR34,Control High Path,86,Female,NA,6.5,3_4,No dementia,ACT,2,2
+3,CZR35,Sporadic AD,77,Male,NA,5.92,3_3,Dementia,ACT,3,3
+3,CZR36,Control High Path,98,Male,NA,4,3_4,No dementia,ACT,3,2
+3,CZR37,Sporadic AD,89,Female,NA,5.23,3_3,Dementia,ACT,3,2
+3,CZR38,Sporadic AD,90,Female,NA,3.85,3_3,Dementia,ACT,3,3
+3,CZR39,Control Low Path,86,Male,NA,3.25,3_3,No dementia,ACT,2,0
+3,CZR40,AutoDom AD,58,Male,PSEN1,24,2_3,Dementia,UW ADRC,3,3
+3,CZR41,Control High Path,89,Female,NA,5.08,3_3,No dementia,ACT,3,3
+3,CZR42,AutoDom AD,39,Female,PSEN1,25,NA,Dementia,DIAN,3,3
+4,CZR43,AutoDom AD,45,Female,PSEN1,6,3_3,Dementia,UW ADRC,3,3
+4,CZR44,Control High Path,79,Male,NA,2.5,3_3,No dementia,ACT,2,2
+4,CZR45,Control Low Path,79,Female,NA,2.5,3_3,No dementia,ACT,1,0
+4,CZR46,AutoDom AD,55,Male,PSEN2,3.98,3_4,Dementia,UW ADRC,3,3
+4,CZR47,Sporadic AD,63,Male,NA,3.33,3_3,Dementia,UW ADRC,3,3
+4,CZR48,Control Low Path,73,Male,NA,4.5,3_3,No dementia,ACT,1,0
+4,CZR49,Sporadic AD,93,Female,NA,6.5,3_3,Dementia,ACT,3,3
+4,CZR50,Control Low Path,91,Male,NA,5,3_3,No dementia,ACT,2,0
+4,CZR51,Sporadic AD,88,Male,NA,4.38,3_3,Dementia,UW ADRC,3,3
+4,CZR52,AutoDom AD,43,Male,PSEN1,20,NA,Dementia,DIAN,3,3
+4,CZR53,AutoDom AD,55,Male,PSEN2,24,3_4,Dementia,UW ADRC,3,3
+4,CZR54,Sporadic AD,85,Female,NA,3.52,3_3,Dementia,UW ADRC,3,2
+4,CZR55,AutoDom AD,64,Male,PSEN2,19,3_3,Dementia,UW ADRC,3,2
+4,CZR56,AutoDom AD,35,Female,PSEN1,41.8,NA,Dementia,DIAN,3,3
+4,CZR57,Sporadic AD,61,Male,NA,3,4_4,Dementia,UW ADRC,3,3
+4,CZR58,Control Low Path,84,Male,NA,4.5,3_4,No dementia,ACT,1,0
+1,HADC01,Brain Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,CRPR01,Caudate Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,HADC02,Brain Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,CRPR02,Caudate Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,HADC03,Brain Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,CRPR03,Caudate Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4,HADC04a,Brain Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4,CRPR04a,Caudate Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4,HADC04b,Brain Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4,CRPR04b,Caudate Reference,NA,NA,NA,NA,NA,NA,NA,NA,NA
