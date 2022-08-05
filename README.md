@@ -20,7 +20,9 @@ devtools::install_github("uw-maccosslab/ADBrainCleanDiagDIA")
 get_fig2;
 get_fig3;
 get_fig4;
-get_fig5;
-get_fig6;
-get_fig7;
+get_fig5a_b;
+get_fig5c;
+get_supfig1_2;
+get_supfig3;
+get_supfig5;
 ```
