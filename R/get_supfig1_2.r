@@ -130,7 +130,7 @@ p2 = ggplot(df.long, aes(x = Abundance, y = Batch, fill = NULL)) +
 
 g2 = gridExtra::grid.arrange(p1,p2, ncol=1)
 
-ggsave("fig/supplfig2-debugging.pdf",g1, dpi=600, dev='pdf',
+ggsave("fig/supplfig2.pdf",g1, dpi=600, dev='pdf',
        height=9, width=15, units="in")
 dev.off()
 
