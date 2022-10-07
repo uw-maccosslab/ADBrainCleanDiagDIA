@@ -71,6 +71,10 @@ get_supfig1_2=function() {
   
   meta.dt = meta.dt[colnames(meta.dt) != "Sample Label"]
   
+  # rename condition groups
+  meta.dt$Condition = gsub("Path", "ADNC", gsub("Control ", "HCF - ", 
+                            gsub("AD", "ADD", meta.dt$Condition)))
+  
   df = df[,match(meta.dt$Replicate, colnames(df))]
   
   

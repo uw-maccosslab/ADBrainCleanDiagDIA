@@ -20,6 +20,10 @@ get_fig4 <- function() {
   data(noBatchProt, envir=environment())
   data(metaDT, envir=environment())
 
+  # rename condition groups
+  metaDT$Condition = gsub("Path", "ADNC", gsub("Control ", "HCF - ", 
+                            gsub("AD", "ADD", metaDT$Condition)))
+  
   raw[log2(raw) <= 0] <- NA
   raw <- log2(raw)
   metaDT <- metaDT[order(metaDT$Replicate),]

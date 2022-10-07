@@ -24,6 +24,10 @@ get_fig2=function() {
   data(raw, envir=environment())
   data(median, envir=environment())
   data(metaDT, envir=environment())
+  
+  # rename condition groups
+  metaDT$Condition = metaDT$Condition = gsub("Path", "ADNC", gsub("Control ", "HCF - ", 
+       gsub("AD", "ADD", metaDT$Condition)))
 
   # wrangle
   runOrder <- subset(runOrder, runOrder$`Sample Name` %in% colnames(raw))
@@ -31,10 +35,10 @@ get_fig2=function() {
   colnames(runOrder)[colnames(runOrder) == "Sample Name"] <- "Replicate"
 
   metaDT <- metaDT[order(match(metaDT$Condition,
-                              c("AutoDom AD",
-                                "Sporadic AD",
-                                "Control High Path",
-                                "Control Low Path",
+                              c("AutoDom ADD",
+                                "Sporadic ADD",
+                                "HCF - High ADNC",
+                                "HCF - Low ADNC",
                                 "SMTG Reference",
                                 "Brain Reference"))),]
   metaDT$Batch <- paste0("Batch ", metaDT$Batch)
@@ -87,8 +91,8 @@ get_fig2=function() {
   metaDT$Condition <- gsub("SMTG Reference", "Interbatch QC",
                            metaDT$Condition)
 
-  new_colors <- cbind(Condition=c("AutoDom AD", "Sporadic AD",
-                                  "Control High Path","Control Low Path",
+  new_colors <- cbind(Condition=c("AutoDom ADD", "Sporadic ADD",
+                                  "HCF - High ADNC","HCF - Low ADNC",
                                   "Interexperiment QC", "Interbatch QC"),
                      Colors=c("#ff4500", "#ffa500",
                               "#000080", "#1874cd",

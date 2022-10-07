@@ -23,6 +23,10 @@ get_fig5c=function() {
   data("noBatchProt", envir=environment())
   noBatchProt <- noBatchProt[,-idx]
   data("diffTab", envir=environment())
+  
+  # rename condition groups
+  metaDT$Condition = gsub("Path", "ADNC", gsub("Control ", "HCF - ", 
+                            gsub("AD", "ADD", metaDT$Condition)))
 
   # filter data with fdr < 0.05 and logFC > 1
   temp <- diffTab[diffTab$adj.P.Val < 0.05,]
@@ -42,8 +46,8 @@ get_fig5c=function() {
                           Batch=factor(metaDT$Batch))
   rownames(annotation)=metaDT$Replicate
   heat_colors <- brewer.pal(11, "RdBu")
-  annot_colors=list(Condition=c(`AutoDom AD`="#ff4500",
-                                `Control Low Path`="#1874cd"))
+  annot_colors=list(Condition=c(`AutoDom ADD`="#ff4500",
+                                `HCF - Low ADNC`="#1874cd"))
 
   hmap <- pheatmap(protSig, color=heat_colors,
            cluster_rows=T, show_rownames=T,

@@ -16,6 +16,10 @@ get_supfig3 = function() {
   # load data
   data(noBatchPep, envir = environment())
   data(metaDT, envir = environment())
+  
+  # rename condition groups
+  metaDT$Condition = gsub("Path", "ADNC", gsub("Control ", "HCF - ", 
+                            gsub("AD", "ADD", metaDT$Condition)))
   dat = noBatchPep
 
   # wrangle
@@ -67,10 +71,10 @@ get_supfig3 = function() {
 
   new_colors = cbind(
     Condition = c(
-      "AutoDom AD",
-      "Sporadic AD",
-      "Control High Path",
-      "Control Low Path",
+      "AutoDom ADD",
+      "Sporadic ADD",
+      "HCF - High ADNC",
+      "HCF - Low ADNC",
       "Interexperiment QC",
       "Interbatch QC"
     ),
@@ -90,10 +94,10 @@ get_supfig3 = function() {
     cgroup = factor(
       metaDT$Condition,
       levels = c(
-        "AutoDom AD",
-        "Sporadic AD",
-        "Control High Path",
-        "Control Low Path",
+        "AutoDom ADD",
+        "Sporadic ADD",
+        "HCF - High ADNC",
+        "HCF - Low ADNC",
         "Interexperiment QC",
         "Interbatch QC"
       )

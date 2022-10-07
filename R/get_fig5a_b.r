@@ -49,7 +49,7 @@ get_fig5a_b=function() {
     geom_point(stat='identity', aes(col=diffexpressed), 
                #size=6) +
                size=2) +
-    scale_color_manual(name="AutoDom AD",
+    scale_color_manual(name="AutoDom ADD",
                        labels=c("Under Abundant", "Over Abundant"),
                        values=c("UP"="#DC3220", "DOWN"="#005AB5")) +
     geom_text(color="white", size=2) +

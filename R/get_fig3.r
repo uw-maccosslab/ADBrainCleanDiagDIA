@@ -25,6 +25,10 @@ get_fig3 <- function() {
   data(protGrp, envir=environment())
   data(noBatchProt, envir=environment())
   data(metaDT, envir=environment())
+  
+  # rename condition groups
+  metaDT$Condition = gsub("Path", "ADNC", gsub("Control ", "HCF - ", 
+                            gsub("AD", "ADD", metaDT$Condition)))
 
   metaDT <- metaDT[order(metaDT$Replicate),]
   std.idx <- grep("RPR", metaDT$Replicate)

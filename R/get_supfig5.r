@@ -138,6 +138,10 @@ get_supfig5 <- function() {
   data(noBatchProt, envir=environment())
   data(metaDT, envir=environment())
   
+  # rename condition groups
+  metaDT$Condition = gsub("Path", "ADNC", gsub("Control ", "HCF - ", 
+                            gsub("AD", "ADD", metaDT$Condition)))
+  
   protGrp <- as.matrix(protGrp)[,order(colnames(protGrp))]
   noBatchProt <- as.matrix(noBatchProt)[,order(colnames(noBatchProt))]
   metaDT = metaDT[order(metaDT$Replicate),]
