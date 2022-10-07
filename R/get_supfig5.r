@@ -1,9 +1,11 @@
 #' Sci Data Paper Supplementary Figure 5
 #' 
 #' @import lme4
-#'
+#' @importFrom grDevices dev.off pdf
+#' @importFrom graphics axis barplot par text
 #' @return supplfig5.pdf
 #' @export
+
 get_supfig5 <- function() {
   
   printPVCA = function(theDataMatrix, metaDT, main){
@@ -116,7 +118,7 @@ get_supfig5 <- function() {
                   main = main,
                   ylim= c(0,1.1),col = c("blue"), las=2)
     
-    axis(1, at = bp[1:length(effectsNames)], labels = effectsNames, xlab = "Effects", cex.axis = 0.5, las=2)
+    axis(1, at = bp[1:length(effectsNames)], labels = effectsNames, xlab = "Effects", cex.axis = 1, las=1)
     values = randomEffectsMatrixWtAveProp
     new_values = round(values , 3)
     text(bp,randomEffectsMatrixWtAveProp,labels = new_values, pos=3, cex = 0.8) # place numbers on top of bars 

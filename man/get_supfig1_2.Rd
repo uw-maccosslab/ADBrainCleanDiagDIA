@@ -7,7 +7,7 @@
 get_supfig1_2()
 }
 \value{
-supplFigure1_2.pdf
+supplfigure1.pdf;supplFigure2.pdf
 }
 \description{
 Sci Data Paper Supplementary Figures 1 and 2
