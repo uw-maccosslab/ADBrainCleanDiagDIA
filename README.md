@@ -21,7 +21,6 @@ get_fig2;
 get_fig3;
 get_fig4;
 get_fig5a_b;
-get_fig5c;
 get_supfig1_2;
 get_supfig3;
 get_supfig5;
